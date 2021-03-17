@@ -14,6 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
    
 
     <!-- Vendor CSS-->
@@ -28,7 +30,7 @@
 </head>
     
     <body>
-       
+    
         <!-- Landing Page Section -->
         <section id="LandingPage">
         <!-- Nav bar -->
@@ -46,10 +48,18 @@
                     
                 </ul>
             </nav>
+            <div id="particles-js">
+                
+            </div>
+
+            <!-- scripts -->
+            <script src="particles.js"></script>
+            <script src="js/app.js"></script>
+            
             <div class="flex-container">
                 <div class="flex-left">
                     <div class="landingpage-txt">
-                        <p>Hello,I'm <b>John Steven</b></p>
+                        <p>Hello, I'm <b>John Steven</b></p>
                         <p>I'm a
                         <span class="txt-type" data-wait="2000" data-words='["Front-End Developer","UI/UX Designer"]'><b></b></span>
                         </p>
@@ -132,23 +142,23 @@
                         <div class="skill">
                             <span class="Name">PHP</span>
                             <div class="percent">
-                                <div class="progress" style="width: 61%;"></div>
+                                <div class="progress" style="width: 51%;"></div>
                             </div>
-                            <span class="value">61%</span>
+                            <span class="value">55%</span>
                         </div>
                         <div class="skill">
                             <span class="Name">MYSQL</span>
                             <div class="percent">
-                                <div class="progress" style="width: 70%;"></div>
+                                <div class="progress" style="width: 60%;"></div>
                             </div>
-                            <span class="value">70%</span>
+                            <span class="value">60%</span>
                         </div>
                         <div class="skill">
-                            <span class="Name">PHOTOSHOP</span>
+                            <span class="Name">VB.NET</span>
                             <div class="percent">
-                                <div class="progress" style="width: 84%;"></div>
+                                <div class="progress" style="width: 65%;"></div>
                             </div>
-                            <span class="value">84%</span>
+                            <span class="value">65%</span>
                         </div>
                     </div>
                     
@@ -381,6 +391,8 @@
        
         <a href="#LandingPage" class="scroll-up" data-toggle="tooltip" title="Click me to slide up!"><img src="image/arrowup.png" alt="scroll up"></a>
         <script src="js/Script.js"></script>
+        <script src="app.js"></script>
+        <script src="particles.js"></script>
         <script src="https://kit.fontawesome.com/7368c40b21.js" crossorigin="anonymous" ></script>
         <script>
             const popup = document.querySelector('.popup-image');
